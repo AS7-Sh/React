@@ -1,0 +1,37 @@
+main.container table {
+  margin: 30px auto;
+  font-size: 1.1em;
+}
+
+main.container table tr {
+  border: 1px solid #eee;
+}
+
+main.container table tr td,
+main.container table tr th {
+  padding: 10px;
+  width: 15%;
+}
+
+main.container table tr th {
+  font-weight: bolder;
+}
+
+main.container table tr td:first-child,
+main.container table tr th:first-child {
+  width: 45%;
+}
+
+main.container table tr td button {
+  border: none;
+  padding: 5px 10px;
+  background-color: red;
+  color: #fff;
+  border-radius: 10px;
+}
+
+h1,
+h3 {
+  margin: 10px;
+  text-align: center;
+}
